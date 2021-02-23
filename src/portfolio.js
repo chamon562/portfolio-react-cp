@@ -12,7 +12,7 @@ const greeting = {
   username: "Channee Math",
   title: "Hi everyone! I'm Channee Math",
   subTitle: emoji(
-    "I decided to take a leap of faith and take on the challenge to change my stars ✨. I lost my long term safe job at a local Casino here in Southern California due to Covid and it was devastating. I then realized that in order to be part of the future, I had to learn how to code. So I here am adapting and becoming a Full Stack Developer! Whose main goal is not only to help and inspire my team. But to also create and bring to life peoples imagination, because I believe everyone has a story worth telling. Lets Connect!"
+    "I decided to take a leap of faith and take on the challenge to change my stars ✨. I lost my long term safe job at a local Casino here in Southern California due to Covid and it was devastating. I then realized that in order to be part of the future, I had to learn how to code. So, here am adapting and becoming a Full Stack Developer! Whose main goal is not only to help and inspire my team, but to also create and bring to life peoples imagination, because I believe everyone has a story worth telling. Lets Connect!"
   ),
   resumeLink:
     "https://docs.google.com/document/d/1wkXVmdudBQcTIdk7iemZ_TlvsaCxei0P9RnpQxHfrK8/edit?usp=sharing",
