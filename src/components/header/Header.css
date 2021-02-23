@@ -36,6 +36,9 @@
   color: black;
   text-decoration: none;
 }
+.header li a:hover {
+  color: #00FFFF;
+}
 
 .header li a:hover,
 .header .menu-btn:hover {
