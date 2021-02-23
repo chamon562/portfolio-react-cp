@@ -1,20 +1,22 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./Contact.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {illustration, contactInfo} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { illustration, contactInfo } from "../../portfolio";
+import { Fade } from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import helloPenguin from "../../assets/lottie/helloPenguin";
 
 export default function Contact() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
             <h1 className="heading contact-title">{contactInfo.title}</h1>
+
             <p
               className={
                 isDark
@@ -22,6 +24,16 @@ export default function Contact() {
                   : "subTitle contact-subtitle"
               }
             >
+              <div className="greeting-image-div">
+                {illustration.animated ? (
+                  <DisplayLottie animationData={helloPenguin} />
+                ) : (
+                    <img
+                      alt="man sitting on table"
+                      src={require("../../assets/images/manOnTable.svg")}
+                    ></img>
+                  )}
+              </div>
               {contactInfo.subtitle}
             </p>
             <div
@@ -49,11 +61,11 @@ export default function Contact() {
             {illustration.animated ? (
               <DisplayLottie animationData={email} />
             ) : (
-              <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
-            )}
+                <img
+                  alt="Man working"
+                  src={require("../../assets/images/contactMailDark.svg")}
+                ></img>
+              )}
           </div>
         </div>
       </div>

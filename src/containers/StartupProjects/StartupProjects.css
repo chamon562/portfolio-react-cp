@@ -61,8 +61,8 @@
 }
 
 .project-card-footer span.project-tag {
-  background: #55198b;
-  color: #f5f2f4;
+  /* background: lightgrey ; */
+  color: grey;
   vertical-align: middle;
   align-items: center;
   border-radius: 4px;
@@ -78,6 +78,10 @@
   transition: 0.2s ease-in;
 }
 
+span.project-tag:hover {
+  transition: all 0.2s ease-in-out;
+  color: #00ffff;
+}
 @media (max-width: 768px) {
   .project-subtitle {
     font-size: 16px;

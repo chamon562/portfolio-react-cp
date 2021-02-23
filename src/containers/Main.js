@@ -53,6 +53,7 @@ export default class Main extends Component {
           <WorkExperience />
           <Projects />
           <StartupProject />
+          <p style={{textAlign: "center"}}> Still under construction. More Projects are still being worked on Thank you.</p>
           <Achievement />
           <Blogs />
           <Talks />

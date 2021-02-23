@@ -75,6 +75,21 @@
   background-color: black;
 }
 
+.linkedin::before{
+  font-family: fontAwesome;
+  position: absolute;
+  top:0;
+  left:0;
+  font-size: 6em;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+.linkedin:nth-child(2)::before{
+  content: "\f08c";
+  color: blue;
+  border-bottom: 4px solid blue;
+}
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
